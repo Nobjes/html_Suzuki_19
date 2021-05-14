@@ -1,0 +1,461 @@
+
+
+/*headerパート*/
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(247, 213, 17, 0.795);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.headernavi{
+display: flex;
+color:black;
+}
+
+.header img{
+    float: left;
+} 
+
+.headernavi li{
+    margin-left: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+
+/*メインヴィジュアルパート*/
+.mainvisual {
+    position: relative;
+    width: 100%;
+    background: "(html_Suzuki_19/img/mainbg.png)";
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat
+    }
+
+.mainvisual__title{
+     position:absolute;
+     top: 45%;
+     left: 25%;
+     font-size: 50px;
+     color: white;
+     font-weight: bold;
+     text-align: center;
+     margin-bottom: 20px;
+     padding: 0;
+    }
+
+
+.mainvisual img{
+    width: 100%;
+}
+
+.mainvisual__subtitle{
+    position:absolute;
+    top: 60%;
+    left: 20%;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0;
+    }
+
+/*aboutパート*/
+
+.about{
+    font-size: 30px;
+    color:black;
+    text-align: center;
+    margin: 300px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: rgba(247, 213, 17, 0.795);
+}
+
+.about__sub{
+    font-size: 20px;
+    font-weight: bold;
+    color:#000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about__text{
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 2.0;
+}
+
+.imgBox{
+    display: flex;
+    margin-bottom: 20px;
+}
+    
+.imgBox p {
+    width: 25%;
+    }
+
+.imgBox p img{
+    width: 100%;
+}
+
+
+/*courseパート*/
+
+.course{
+    font-size: 30px;
+    color:black;
+    text-align: center;
+    margin: 300px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: rgba(247, 213, 17, 0.795);
+}
+
+.course__subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.course__text{
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 2;
+}
+
+.course__container{
+    display: flex;
+    align-items: center;
+    background-color: rgb(218, 214, 214);
+}
+
+.course__container-img{
+    width:50%;
+}
+
+.course__container-img img{
+    width:100%;
+}
+
+.course__container-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+.course__container-text{
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 2.0;
+    width: 50%;
+    }
+
+
+
+/*NEWSパート*/
+
+.news{
+    font-size: 30px;
+    color:black;
+    text-align: center;
+    margin: 300px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: rgba(247, 213, 17, 0.795);
+}
+
+.news__subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.newsBox{
+    width: 96%;
+}
+
+.newsList{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 100%;
+}
+
+.newsList__item{
+    width: 25%;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.newsList__p_box{
+    border: 3px solid red;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    }
+
+.new_icon:after{
+    position: absolute;
+    content: "new";
+    top:-20px;
+    left: -20px;
+    background:red;
+    border-radius: 50%;
+    color: #fff;
+    padding: 15px 10px;
+    }
+
+.p_box img{
+    width: 100%;
+    }
+
+.newsList__item-day{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.newsList__item-text{
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 2.0;
+}
+
+
+.animation {
+  width:250px;
+  height: 50px;
+  text-align:center;
+  border:2px solid #BBBBBB;
+  float:center;
+  cursor:pointer;
+  position:relative;
+  box-sizing:border-box;
+  overflow:hidden;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.animation a {
+  font-family:arial;
+  font-size:12px;
+  color:black;
+  text-decoration:none;
+  line-height:50px;
+  transition:all .10s ease;
+  z-index:2;
+  position:relative;
+}
+
+.effect {
+  width:500px;
+  height:200px;
+  top:-50px;
+  left:-250px;
+  background:rgba(247, 213, 17, 0.795);
+  position:absolute;
+  transition:all .5s ease;
+  z-index:1;
+}
+
+.animation:hover .effect {
+  left:0;
+}
+.animation:hover a {
+  color:red;
+}
+
+
+/*アクセスパート*/
+
+.access{
+    font-size: 30px;
+    color:black;
+    text-align: center;
+    margin: 300px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: rgba(247, 213, 17, 0.795);
+}
+
+.access__title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(218, 214, 214);
+}
+
+.access__text{
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(218, 214, 214);
+    line-height: 2;
+}
+
+.access__map{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(218, 214, 214);
+}
+
+.access__back{
+    background-color: rgb(218, 214, 214);
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+/*お問い合わせパート*/
+
+.contact{
+    font-size: 30px;
+    color:black;
+    text-align: center;
+    margin: 300px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: rgba(247, 213, 17, 0.795);
+}
+
+.contact__title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact__text{
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 2;
+}
+
+
+/*お問い合わせパートのフォーム部分*/
+
+.formBox{
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formBox__form{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: auto;
+    text-align: center;
+    display: flex;
+    line-height: 2;
+}
+
+.formBox__form dt{
+    width: 200px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: auto;
+    text-align: left;
+}
+
+.formBox__form dd{
+    width: 400px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+.submit{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px 10px 10px;
+}
+
+
+/*注意喚起パート*/
+
+.caution{
+    font-size: 30px;
+    color:rgba(247, 213, 17, 0.795);
+    text-align: center;
+    margin: 300px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: rgba(247, 17, 17, 0.795);
+}
+
+.caution__title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(218, 214, 214);
+}
+
+.caution__text{
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(218, 214, 214);
+    line-height: 2;
+}
+
+.caution__button{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.caution__kaiji{
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.caution__endoscopy{
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    margin-bottom: 20px;
+    color: black;
+}
+
+
+.footer{
+    background-color: rgb(218, 214, 214);
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
